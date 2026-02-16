@@ -12,7 +12,7 @@
 
 body{
     background-color: #5d6d7eff ;
-    /* background-image:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../assets/img/mercurio2.jpg);
+    /* background-image: url(../../assets/img/mercurio2.jpg);
     opacity: 1;
     background-size: cover 100%;
     background-position:center;
@@ -101,7 +101,7 @@ a.back {
 p{
     margin: 0;
     padding: 0;
-    text-indent: 20px;
+    text-indent: 40px;
 }
 
 h2{
