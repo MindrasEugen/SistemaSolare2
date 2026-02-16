@@ -23,24 +23,24 @@ h1{
     text-shadow: 3px 3px 3px #bdc3c7ff;
 }
 
-div.marte_footer{
+div.mercurio_footer{
     text-align: center;
     color: #bdc3c7ff;
-    margin: 20px calc(50% - 50px);
+    margin: 20px calc(50% - 100px);
     padding: 20px;
 }
 
 a.back {
-    background-color:#8b4513;
+    background-color:#354a5fff; ;
     display: block;
-    width: 50px;
-    height: 30px;
+    width: 160px;
+    height: 40px;
     border: 2px solid black;
-    border-radius: 50%;
+    border-radius: 15px;
     color: #bdc3c7ff;
     text-decoration: none;
     text-transform: capitalize;
     cursor: pointer;
     text-align: center;
-    line-height: 25px;
+    line-height: 34px;
 }
