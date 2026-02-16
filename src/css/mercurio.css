@@ -1,0 +1,127 @@
+
+/* --charcoal-blue: #2b3d4fff;
+--charcoal-blue-2: #354a5fff;
+--blue-slate: #5d6d7eff;
+--pale-slate: #bdc3c7ff;
+--platinum: #edf1f2ff; */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5d6d7eff ;
+    /* background-image:  linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../assets/img/mercurio2.jpg);
+    opacity: 1;
+    background-size: cover 100%;
+    background-position:center;
+    background-repeat: no-repeat; */
+   
+}
+
+h1{
+    color: #edf1f2ff;
+    text-align: center;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #bdc3c7ff;
+}
+
+div.mercurio_head{
+    text-align: center;
+    color: #bdc3c7ff;
+    margin: 5px;
+    padding: 5px;
+}
+
+div.mercurio_body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 17px;
+}
+
+div.mercurio_footer{
+    text-align: center;
+    color: #bdc3c7ff;
+    margin: 20px;
+    padding: 20px;
+}
+
+a{
+    color: #bdc3c7ff;
+    text-decoration: underline;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.image{
+    margin: auto 40px;
+    padding: 0 ;
+    /* max-width:600px; */
+    min-width: 90%;
+    height:auto;
+    border-radius: 10px;
+    opacity: 1;
+    box-shadow: 0 0 20px #bdc3c7ff;
+}
+.planet{
+    display: inline-block;
+    vertical-align: top;
+    /* border: 3px solid #bdc3c7ff; */
+    width: calc(50% - 30px);
+    margin: 0;
+    padding: 0;
+    @media screen and (max-width: 780px) {
+                width: calc(100% - 4px);
+            }
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #bdc3c7ff;
+    text-align: left;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    /* text-transform: uppercase; */
+    text-shadow: 3px 3px 3px #2b3d4fff;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.mercurio_body_add{
+    margin: 20px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+div#footer{
+    background-color:#bdc3c7ff ;
+    padding: 50px;
+}
+
+.author{
+    color: rgb(1, 130, 204);
+    text-decoration: underline;
+}
+
+address{
+    display: inline-block;
+}
+
+dt{
+    display: inline-block;
+    min-width: 150px;
+}
+
+dd{
+    display: inline-block;
+}

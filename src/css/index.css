@@ -1,0 +1,175 @@
+/* black: #000000ff;
+prussian-blue: #14213dff;
+orange: #fca311ff;
+alabaster-grey: #e5e5e5ff;
+white: #ffffffff; */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "EB Garamond", serif;
+    
+}
+
+abbr{
+    text-decoration: none;
+    font-style: italic;
+}
+
+div#header {
+    background-color: #14213dff;
+    min-height: 250px;
+    line-height: 250px;
+
+}
+
+div#main{
+    padding: 20px 20px;
+    background-color: #e5e5e5ff;
+}
+.sistema-solare_title{
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.sistema-solare_title--principale {
+    text-shadow: 2px 2px 2px #e5e5e5ff;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #fca311ff;
+}
+
+.sistema-solare{
+    background-color: #fca311ff;
+    padding: 20px;
+    border: 3px solid #000000ff;
+}
+.sistema-solare_body{
+    font-size: 19px;
+    line-height: 1.15;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.author{
+    color: rgb(1, 130, 204);
+    text-decoration: underline;
+}
+
+address{
+    display: inline-block;
+}
+
+dt{
+    display: inline-block;
+    min-width: 150px;
+}
+
+dd{
+    display: inline-block;
+}
+
+.sistema-solare_body li{
+    list-style-image: url(../../assets/img/icons8-planet-16.png);
+}
+
+.pianeta-container{
+    margin: 0;
+    background-color: #e5e5e5ff;
+    font-size: 0;
+}
+
+.pianeta-card{
+    width: calc(33.333333% - 20px);
+    border: 2px solid #000000ff;
+    padding: 20px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px 20px;
+    box-shadow: inset 0 0 10px #14213dff;
+    @media screen and (max-width: 780px) {
+                width: calc(100% - 4px);
+            }
+    media screen and (min-width: 781px) and (max-width: 1200px) {
+                width: calc(50% - 4px);
+            }
+
+}
+
+.pianeta-card__head{
+    border-bottom: 2px ridge #000000ff;
+    padding-bottom: 20px;
+    margin: 0;
+    /* box-shadow: inset 0 0 20px #14213dff; */
+}
+
+.pianeta-card__head h2{
+    text-align: center;
+    margin: 0;
+    
+}
+.pianeta-card__body{
+    padding: 20px 20px ;
+    min-height: 300px;
+    box-shadow: inset 0 0 15px #14213dff;
+}
+
+.pianeta-card__body p{
+    margin: 0;
+}
+
+.pianeta-card__footer{
+    color: #14213dff;
+    text-align: center;
+    border-top: 2px ridge #000000ff;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+
+div.pianeta-card__footer a{
+    color: #14213dff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.pianeta-card__footer a:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* .pianeta__card--boundary-left{
+    margin-left: 10px;
+    /* width: calc(33.333333% - 10px); */
+/* }  */
+
+/* .pianeta__card--boundary-right{
+    margin-right: 0;
+    /* width: calc(33.333333% - 10px); */
+/* }  */
+
+div#footer{
+    background-color: #fca311ff;
+    padding: 50px;
+}
+
+div div.pianeta-card:nth-of-type(3n+1){
+    /* background-color: red; */
+    margin-left: 10px;
+    /* width: calc(33.333333% - 10px); */
+}
+
+div div.pianeta-card:nth-of-type(3n){
+    /* background-color: green; */
+    margin-right: 0;
+    /* width: calc(33.333333% - 10px); */
+}
