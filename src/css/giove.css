@@ -1,0 +1,12 @@
+
+
+
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #bdc3c7ff;
+}
