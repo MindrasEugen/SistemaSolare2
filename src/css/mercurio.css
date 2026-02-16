@@ -39,7 +39,7 @@ div.mercurio_head{
 }
 
 div.mercurio_body{
-    margin: 20px;
+    margin: 10px;
     margin-right: 5px;
     margin-bottom: 0;
     padding: 0 15px;
@@ -48,7 +48,7 @@ div.mercurio_body{
 }
 
 .mercurio_body_add{
-    margin: 20px;
+    margin: 10px;
     margin-right: 5px;
     padding: 0 15px;
     color: black;
