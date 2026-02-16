@@ -1,3 +1,16 @@
+/* #8b4513
+#ce8740
+#d9a520
+#f4a662
+#deb887 */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #deb887;
+}
 
 
 h1{
@@ -8,4 +21,26 @@ h1{
     text-decoration: underline;
     text-transform: uppercase;
     text-shadow: 3px 3px 3px #bdc3c7ff;
+}
+
+div.marte_footer{
+    text-align: center;
+    color: #bdc3c7ff;
+    margin: 20px calc(50% - 50px);
+    padding: 20px;
+}
+
+a.back {
+    background-color:#8b4513;
+    display: block;
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: #bdc3c7ff;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
 }
