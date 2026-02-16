@@ -84,6 +84,7 @@ dd{
 
 .pianeta-container{
     margin: 0;
+    padding-right: 10px;
     background-color: #e5e5e5ff;
     font-size: 0;
 }
@@ -96,14 +97,16 @@ dd{
     font-size: 16px;
     margin: 0 10px 20px;
     box-shadow: inset 0 0 10px #14213dff;
-    @media screen and (max-width: 780px) {
+    @media screen and (max-width: 600px) {
                 width: calc(100% - 4px);
             }
-    media screen and (min-width: 781px) and (max-width: 1200px) {
-                width: calc(50% - 4px);
+    @media screen and (min-width: 600px) and (min-height: 400px) and (max-width: 1150px) {
+                width: calc(100% - 4px);
             }
+   
+        
+    }
 
-}
 
 .pianeta-card__head{
     border-bottom: 2px ridge #000000ff;
@@ -119,7 +122,7 @@ dd{
 }
 .pianeta-card__body{
     padding: 20px 20px ;
-    min-height: 300px;
+    min-height: 400px;
     box-shadow: inset 0 0 15px #14213dff;
 }
 
