@@ -58,15 +58,23 @@ div.mercurio_body{
 div.mercurio_footer{
     text-align: center;
     color: #bdc3c7ff;
-    margin: 20px;
+    margin: 20px calc(50% - 50px);
     padding: 20px;
 }
 
-a{
+a.back {
+    background-color:#354a5fff; ;
+    display: block;
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
     color: #bdc3c7ff;
-    text-decoration: underline;
+    text-decoration: none;
     text-transform: capitalize;
     cursor: pointer;
+    text-align: center;
+    line-height: 25px;
 }
 
 .image{

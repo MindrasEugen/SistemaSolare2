@@ -148,6 +148,8 @@ div.pianeta-card__footer a{
 div.pianeta-card__footer a:hover{
     cursor: pointer;
     text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
 }
 
 /* .pianeta__card--boundary-left{
