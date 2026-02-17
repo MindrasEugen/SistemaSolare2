@@ -11,7 +11,8 @@
 }
 
 body{
-    background-color: #5d6d7eff ;
+    /* background-color: #5d6d7eff ; */
+    background-image: linear-gradient(#5d6d7eff,#edf1f2ff);
     /* background-image: url(../../assets/img/mercurio2.jpg);
     opacity: 1;
     background-size: cover 100%;
@@ -105,13 +106,13 @@ p{
 }
 
 h2{
-    color: #bdc3c7ff;
+    color: #354a5fff;
     text-align: left;
     font-size: 30px;
     font-family:Arial, Helvetica, sans-serif;
     text-decoration: underline;
     /* text-transform: uppercase; */
-    text-shadow: 3px 3px 3px #2b3d4fff;
+    text-shadow: 3px 3px 3px white;
     margin: 20px 10px;
     /* margin-bottom: 10px; */
     padding-left: 20px;
