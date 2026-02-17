@@ -147,9 +147,12 @@ div.pianeta-card__footer a{
 
 div.pianeta-card__footer a:hover{
     cursor: pointer;
+    text-shadow: 3px 3px 3px white;
+    /* background-image: radial-gradient(white, #14213dff); */
     text-transform: uppercase;
-    font-style: italic;
-    font-weight: bold;
+    font-family: fantasy;
+    /* font-style: italic; */
+    font-weight: 500;
 }
 
 /* .pianeta__card--boundary-left{
