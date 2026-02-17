@@ -150,6 +150,7 @@ div.pianeta-card__footer a:hover{
     text-shadow: 3px 3px 3px white;
     /* background-image: radial-gradient(white, #14213dff); */
     text-transform: uppercase;
+    text-decoration: underline;
     font-family: fantasy;
     /* font-style: italic; */
     font-weight: 500;
