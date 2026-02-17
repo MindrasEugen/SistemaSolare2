@@ -125,6 +125,10 @@ h2{
     padding-left: 20px;
 }
 
+div.mercurio_body h2{
+    color: #253342;
+}
+
 div#footer{
     background-color:#bdc3c7ff ;
     padding: 50px;
