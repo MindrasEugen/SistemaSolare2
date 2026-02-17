@@ -78,6 +78,13 @@ a.back {
     line-height: 34px;
 }
 
+a.back:hover {
+    background-image: radial-gradient(white,#2b3d4fff);
+    cursor: pointer;
+    text-transform: uppercase;
+    color: black;
+}
+
 .image{
     margin: 40px;
     padding: 0 ;

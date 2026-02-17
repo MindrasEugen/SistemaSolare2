@@ -32,3 +32,10 @@ a.back {
     text-align: center;
     line-height: 34px;
 }
+
+a.back:hover {
+    background-image: radial-gradient(#2b3d4fff,white);
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
