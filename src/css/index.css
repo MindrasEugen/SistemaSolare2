@@ -104,7 +104,7 @@ dd{
                 margin: 20px 0;
             }
     @media screen and (min-width: 600px)  and (max-width: 1150px) {
-                width: 100%;
+                width: calc(100% - 10px);
                 margin: 20px 0;
                 padding: 0;
             }
