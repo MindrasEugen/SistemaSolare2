@@ -36,14 +36,14 @@ div#main{
 .sistema-solare_title{
     text-align: center;
     margin: 0;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: capitalize;
 }
 .sistema-solare_title--principale {
     text-shadow: 2px 2px 2px #e5e5e5ff;
     word-spacing: 3px;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #fca311ff;
 }
 
@@ -54,7 +54,7 @@ div#main{
     margin-bottom: 20px;
 }
 .sistema-solare_body{
-    font-size: 19px;
+    font-size: 1.1875;
     line-height: 1.15;
 }
 
@@ -74,7 +74,7 @@ address{
 
 dt{
     display: inline-block;
-    min-width: 150px;
+    min-width: 9.375rem;
 }
 
 dd{
@@ -100,13 +100,16 @@ dd{
     padding-top: 0;
     /* display: inline-block; */
     float: left;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0 10px 20px;
     box-shadow: inset 0 0 15px #fca311ff;
     cursor: pointer;
     @media screen and (max-width: 600px) {
                 width: 100%;
                 margin: 10px 0;
+                /* .pianeta-card__body{ */
+                /* max-height: none; */
+                /* } */
             }
     @media screen and (min-width: 600px)  and (max-width: 1150px) {
                 width: 100%;
@@ -122,7 +125,12 @@ dd{
 }
 
 .pianeta-card:hover{
-    box-shadow: 0px 0px 15px #14213dff;
+    box-shadow: 0px 0px 35px #14213dff;
+    .pianeta-card__body{
+        font-size: 1rem;
+        font-weight: 900;
+        max-height: 25rem;
+    }
     .pianeta-card__head{
         background-color: #14213dff;
         color: #fca311ff;
@@ -153,7 +161,7 @@ div.pianeta-card__head:hover {
 }
 .pianeta-card__body{
     padding: 20px 20px ;
-    min-height: 400px;
+    min-height: 25rem;
     /* box-shadow: inset 0 0 15px #14213dff; */
 }
 
@@ -166,7 +174,7 @@ div.pianeta-card__head:hover {
     text-align: center;
     border-top: 2px ridge #000000ff;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
     
 }
