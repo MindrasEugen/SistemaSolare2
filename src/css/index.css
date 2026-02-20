@@ -128,7 +128,7 @@ dd{
     box-shadow: 0px 0px 35px #14213dff;
     .pianeta-card__body{
         font-size: 1rem;
-        font-weight: 900;
+        font-weight: 800;
         max-height: 25rem;
     }
     .pianeta-card__head{
