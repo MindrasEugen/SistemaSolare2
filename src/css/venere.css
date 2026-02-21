@@ -1,33 +1,95 @@
+  /* --venere-blush:   #F2A7B8; rosa venere
+  --venere-rose:    #F7C6D0; rosa chiaro, soffuso
+  --venere-pearl:   #F4E9E2; perlaceo, etereo
+  --venere-gold:    #E7C27A; oro morbido
+  --venere-sand:    #D8B8A0; sabbia calda
+  --venere-brown:   #6B4A3A; accento scuro elegante */
 
+
+* {
+    box-sizing: border-box;
+}
+
+  body{
+    background-color: #E7C27A;
+    background-image: linear-gradient(to top, #F4E9E2,  #E7C27A,  #D8B8A0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+  }
+
+span{
+    display: block;
+}
 
 h1{
     padding: 10px;
     text-align: center;
-    font-size: 70px;
+    font-size: 4.375rem;
     font-family:Arial, Helvetica, sans-serif;
+    color:#E7C27A;
     text-decoration: underline;
     text-transform: uppercase;
-    text-shadow: 3px 3px 3px #bdc3c7ff;
+    text-shadow: 3px 3px 3px black;
 }
 
-div.venere_footer{
+header#main-header,footer#main-footer{
+    padding: 10px;
+    background-color:  black;
+    color: white;
+}
+
+h2,h3{
+    padding: 10px;
+    background-color:  #6B4A3A;
+
+}
+
+p{
+    padding: 20px;
+    margin: 20px;
+    border-left: 4px solid #6B4A3A;
+    background-color: rgba(244, 233, 226, 0.4);
+}
+
+p#back{
     text-align: center;
     color: #bdc3c7ff;
     margin: 20px calc(50% - 100px);
     padding: 20px;
+    border-left: 0;
+}
+
+
+section.main__header,section.main__body{
+    margin: 20px;
 }
 
 a.back {
-    background-color:#354a5fff; ;
+    background-color:#6B4A3A;
     display: block;
     width: 160px;
     height: 40px;
     border: 2px solid black;
     border-radius: 15px;
-    color: #bdc3c7ff;
+    color: white;
     text-decoration: none;
     text-transform: capitalize;
     cursor: pointer;
     text-align: center;
     line-height: 34px;
+}
+
+a.back:hover{
+    background-image:radial-gradient(white, #6B4A3A);
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer#main-footer{
+    font-size: 0.8rem;
+}
+.author{
+    color:#F2A7B8 ;
 }
