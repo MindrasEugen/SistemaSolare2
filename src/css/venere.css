@@ -17,10 +17,6 @@
     font-size: 1rem;
   }
 
-span{
-    display: block;
-}
-
 h1{
     height: 400px;
     line-height: 400px;
@@ -98,6 +94,7 @@ h4{
 p{
     padding: 20px;
     margin: 10px;
+    text-indent: 30px;
     border-left: 4px solid #6B4A3A;
     background-color: rgba(216, 184, 160, 0.6);
 }
