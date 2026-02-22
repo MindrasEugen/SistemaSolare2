@@ -97,7 +97,7 @@ h4{
 
 p{
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     border-left: 4px solid #6B4A3A;
     background-color: rgba(216, 184, 160, 0.6);
 }
@@ -140,7 +140,7 @@ a.home:hover{
 }
 
 section.main__header,section.main__body{
-    margin: 20px;
+    margin: 10px;
 }
 
 a.back {
