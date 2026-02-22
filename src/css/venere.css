@@ -100,6 +100,7 @@ p{
 }
 
 p#back{
+    text-indent: 0;
     background-color:  #f1ddcf;
     text-align: center;
     color: #bdc3c7ff;
