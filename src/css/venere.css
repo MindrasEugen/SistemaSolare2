@@ -11,7 +11,7 @@
 }
 
   body{
-    background-color: white;
+    background-color: #f1ddcf;
     /* background-image: linear-gradient(to top, #F4E9E2,  #E7C27A,  #D8B8A0); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -32,10 +32,44 @@ h1{
     text-shadow: 3px 3px 3px black;
 }
 
-header#main-header,footer#main-footer{
+header#main-header{
+    padding: 10px;
+    /* background-color:  black; */
+    color: white;
+    background-image: url(../../assets/img/Venere.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer#main-footer{
     padding: 10px;
     background-color:  black;
     color: white;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 25px;
+    padding-left: 20px;
+    /* border: 2px ridge black; */
+}
+
+nav ul li a.navigator{
+    text-decoration: none;
+    font-family: Lucida Calligraphy, Lucida Handwriting, cursive;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #6B4A3A;
+}
+
+nav ul li a.navigator:hover{
+    text-decoration: underline;
+    /* text-transform: uppercase; */
 }
 
 h3{
@@ -58,11 +92,11 @@ p{
     padding: 20px;
     margin: 20px;
     border-left: 4px solid #6B4A3A;
-    background-color: rgba(216, 184, 160, 0.5);
+    background-color: rgba(216, 184, 160, 0.6);
 }
 
 p#back{
-    background-color: white;
+    background-color:  #f1ddcf;
     text-align: center;
     color: #bdc3c7ff;
     margin: 20px calc(50% - 100px);
@@ -70,6 +104,28 @@ p#back{
     border-left: 0;
 }
 
+div.up{
+    text-align: right;
+}
+
+a.home{
+    /* max-width: 70px; */
+    text-align: right;
+    text-decoration: none;
+    color: #6B4A3A;
+    font-family:  Lucida Calligraphy, Lucida Handwriting, cursive;
+    display: block;
+    
+}
+
+
+a.home:hover{
+    cursor: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:  #6B4A3A;
+    border-bottom: 1px solid #6B4A3A;
+}
 
 section.main__header,section.main__body{
     margin: 20px;
