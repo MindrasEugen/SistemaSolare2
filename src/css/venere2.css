@@ -118,7 +118,6 @@ nav ul li a.navigator {
     font-size: 1.1rem;
     font-weight: 900;
     color: var(--venere-brown);
-    transition: 0.2s ease-in-out;
 }
 
 nav ul li a.navigator:hover {
@@ -160,7 +159,6 @@ a.home {
     color: var(--venere-brown);
     font-family: var(--font-script);
     display: block;
-    transition: 0.2s ease-in-out;
 }
 
 a.home:hover {
@@ -195,7 +193,6 @@ a.back {
     text-transform: capitalize;
     text-align: center;
     line-height: 34px;
-    transition: 0.3s ease-in-out;
 }
 
 a.back:hover {
