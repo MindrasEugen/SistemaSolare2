@@ -58,19 +58,22 @@ h1{
     
 }
 h2{
-    background-color:#0a3d62;
-    margin: 10px;
+    background-color: #052f4e;
+    margin: 5px;
     padding: 10px;
     color: #f7f7f7;
 }
 
 h3 {
-    background-color: #052f4e ;
+    background-color: #063b62 ;
     color:  #f7f7f7;
+    margin: 5px;
+    padding: 10px;
 }
 p { 
     padding: 25px 10px;
-    margin: 0 20px;
+    margin: 0 10px;
+    margin-top: 3px;
     color:black ;
     font-weight: 550;
 }
@@ -89,7 +92,7 @@ p {
 
 ul, ol {
     padding: 25px 35px;
-    margin: 10px 20px;
+    margin: 3px 10px;
     color:black ;
     font-weight: 550;
 }
@@ -157,7 +160,7 @@ section#main-section {
     width: 80%;
     float: left;
     background-color: #b7d9f7;
-    padding: 20px;
+    padding: 5px;
 }
 
 section#back {
