@@ -68,14 +68,34 @@ h3 {
     background-color: #052f4e ;
     color:  #f7f7f7;
 }
-p {
+p { 
+    padding: 25px 10px;
+    margin: 0 20px;
     color:black ;
-    padding: 10px;
-    margin: 20px;
+    font-weight: 550;
 }
 
+.main__body{
+    background-image: url(../../assets/img/prato_erba.jpg);
+    background-color: rgba(146, 140, 140, 0.6);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
 ul, ol {
-    color: black;
+    padding: 25px 35px;
+    margin: 10px 20px;
+    color:black ;
+    font-weight: 550;
+}
+
+strong{
+    text-decoration: underline;
 }
 
 nav ul {
@@ -121,10 +141,16 @@ nav ul li a {
 
 nav ul li a:hover{
     color: #0a3d62;
-    font-size: 16px;
+    font-size: 22px;
     text-decoration: underline;
     font-weight: 850;
     text-shadow: 2px 2px 2px  #02b90c;
+     @media screen and (max-width: 300px){
+        font-size: 16px;
+     }
+     @media screen and (min-width: 250px)  and (max-width: 740px) {
+        font-size: 16px;
+     }
 }
 
 section#main-section {
@@ -195,7 +221,8 @@ div.clearfix {
 } */
 
 p#back {
-    background-color: var(--venere-bg);
+    background-image: none;
+    background-color: none;
     text-align: center;
     color: #bdc3c7;
     margin: 20px calc(50% - 100px);
